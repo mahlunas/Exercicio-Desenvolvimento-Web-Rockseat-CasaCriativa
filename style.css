@@ -1,6 +1,49 @@
 body{
-	background: #F8F8FF;
+	background: #E6E6FA;
 	color: black;
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.hide{
+	display: none;
+}
+
+a{
+	color: #7B68EE;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+p, .description{
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.1px;
+}
+
+#container{
+	width: 80%;
+	max-width: 980px;
+	margin: 40px auto;
+	display: flex;
+}
+
+#intro{
+	width: 300px;
+	margin-right: 20px;
+}
+
+main{
+	margin: 32px 0;
+}
+
+#buttons{
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 32px;
 	text-align: center;
 }
 
@@ -9,14 +52,63 @@ button{
 	font-weight: bold;
 	background: none;
 	color: #7B68EE;
+	cursor: pointer;
+	outline: none;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 18px;
+	letter-spacing: 0.2px;
 }
 
-.fat{
+button:hover{
+	text-decoration: underline;
+}
+
+button.fat{
 	background: #7B68EE;
 	color: white;
+	width: 150px;
+	height: 40px;
+	border-radius: 6px;
+	box-shadow: 0px 8px 16px rgba(100, 0, 250, 0.3);
 }
 
-#footer a{
-	color: black;
+button.fat:hover{
 	text-decoration: none;
+}
+
+footer{
+	text-align: center;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	letter-spacing: 0.2px;
+}
+
+.ideia{
+	display: flex;
+	background: white;
+	margin-bottom: 20px;
+	border-radius: 6px;
+	padding: 32px;
+	box-shadow: 0 4px 16px -8px rgba(1, 1, 1, 0.1);
+}
+
+.ideia img{
+	width: 60px;
+	height: 60px;
+	margin-right: 32px;
+}
+
+.ideia h3{
+	margin: 0;
+}
+
+.ideia p{
+	margin: 8px 0;
+	color: #777;
+}
+
+.ideia .description{
+	margin: 16px 0;
 }
